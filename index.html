@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <div class="logo pic">
+                    <img style="
+                        margin-right: 10px;" 
+                        src="./logo.png" width="30px">
+                        <p style="
+                        display: flex;
+                        margin-top: 5px;
+                        font-size: 20px;">
+                        <b>Job</b>Passcard</p>
+                </div>
+                <div class="menu">
+                    <div class="about">
+                        <p><b>ABOUT US</b></p>
+                    </div>
+                    <div class="passcard">
+                        <p><b>PASSCARD</b></p>
+                    </div>
+                    <div class="profile">
+                        <p><b>PROFILE</b></p>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="search">
+                        <img src="./search.png" alt="search" width="20px">
+                    </div>
+                    <div class="cart">
+                        <img src="./cart.png" alt="cart" width="20px">
+                    </div>
+                    <div class="login"><b>LOGIN</b> &nbsp;</div>
+                    <div class="signup"><b>SIGN UP</b></div>
+                </div>
+            </nav>
+        <hr style="
+            width: 120%;
+            position: relative;
+            right: 20px;
+            top: 15px">
+        </div>
+        <h1 class="mycart">My Cart</h1>
+        <div class="container-cart">
+            <div class="box-left">
+                <div class="mainbox1">
+                    <div class="box1">
+                        <div class="box1-1">
+                            <img style="
+                            width: 30px;
+                            border: 1px solid #3fdde9; 
+                            border-radius: 50%;
+                            padding: 5px;" 
+                            src="./trash.png" alt="trash">
+                        </div>
+                        <div class="box1-2">
+                            <div class="goo-doc">
+                                <img style="
+                                    width: 25px;" 
+                                src="./google-docs.png">
+                                <p><B>Google Docs</B></p>
+                                <span style="font-size: 10px;">Used for business</span>
+                            </div>
+                        </div>
+                        <div class="box1-3">
+                            <p style="
+                                padding: 5px;
+                                font-size: 20px;"><b>Google Docs</b></p>
+                            <i class="fa-duotone fa-ellipsis" style="--fa-primary-color: #141414; --fa-secondary-color: #00ced1;"></i><select name="lvl" aria-placeholder="Lv1-3">
+                                <option>Lv1-3</option>
+                                <option>Lv2-3</option>
+                                <option>Lv3-3</option>
+                            </select>
+                            <p style="padding: 5px;">150 THB</p>
+                        </div>
+                    </div>
+                </div>
+<br>
+                <div class="mainbox2">
+                    <div class="box2">
+                        <div class="box2-1">
+                            <img style="
+                            width: 30px;
+                            border: 1px solid #3fdde9; 
+                            border-radius: 50%;
+                            padding: 5px;" 
+                            src="./trash.png" alt="trash">
+                        </div>
+                        <div class="box2-2">
+                            <div class="goo-doc">
+                                <img style="width: 25px;" 
+                                src="./google-docs.png">
+                                <p><b>Google Slides</b></p>
+                                <span style="font-size: 10px;">Used for business</span>
+                            </div>
+                        </div>
+                        <div class="box2-3">
+                            <p style="
+                                padding: 5px;
+                                font-size: 20px;"><b>Google Slides</b></p>
+                            <i class="fa-duotone fa-ellipsis" style="--fa-primary-color: #141414; --fa-secondary-color: #00ced1;"></i>
+                            <select name="lvl" aria-placeholder="Lv1-3">
+                                <option>Lv1-3</option>
+                                <option>Lv2-3</option>
+                                <option>Lv3-3</option>
+                            </select>
+                            <p style="padding: 5px;">150 THB</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        <div class="box-right">
+            <div class="box-right1">
+                <h4 class="order-info" 
+                    style="
+                    font-size: larger;">
+                    Order Info</h4>
+            </div>
+            <div class="box-right2">
+                <p>Subtotal</p>
+                <p style="font-size: 20px;">THB 300</p>
+            </div>
+            <div class="box-right3">
+                <div><img style="position: relative;
+                top: 10%" src="./coupon.png" width="25px"></div>
+                <textarea style="resize: none;
+                padding: 2%;
+                padding-top: 2%;" name="code" placeholder="Promotion code" cols="40" rows="1"></textarea>
+                <div style="width: 5%;"></div>
+                <p class="apply-button"><b>APPLY</b></p>
+            </div>
+    <hr style="
+            width: 100%;
+            position: relative;
+            bottom: 5%;">
+
+            <div class="box-right4">
+                <p style="
+                position: relative;
+                top: 25%;">
+                Total payment</p>
+                <p style="font-size: 30px;"><b>THB 300</b></p>
+            </div>
+            <div class="box-right5">
+                <p class="login-button"><b>LOGIN TO CHECKOUT</b></p>
+            </div>
+        </div>
+    
+    </div>
+</body>
+
+
+</html>
